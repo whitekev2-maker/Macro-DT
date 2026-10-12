@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Diet Tracker</title>
+  <style>
+    :root {
+      --primary: #145D25;
+      --primary-light: #E8F5E9;
+      --text: #1C1B1F;
+      --text-muted: #49454F;
+      --bg: #F8FAF8;
+      --card-bg: #FFFFFF;
+      --border: #E0E0E0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background: linear-gradient(135deg, #145D25 0%, #1E8238 100%);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0 0 10px 0;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .header p {
+      margin: 0;
+      opacity: 0.9;
+      font-size: 1rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: -20px auto 40px auto;
+      padding: 0 16px;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+    h2 {
+      color: var(--primary);
+      font-size: 1.35rem;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      border-bottom: 2px solid var(--primary-light);
+      padding-bottom: 6px;
+    }
+    h2:first-of-type {
+      margin-top: 0;
+    }
+    h3 {
+      font-size: 1.1rem;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+    p, li {
+      color: var(--text-muted);
+      font-size: 0.975rem;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    a {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <h1>Privacy Policy</h1>
+    <p>Diet Tracker (Android Application)</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <div class="badge">Effective Date: October 12, 2026</div>
+
+      <p><strong>Application ID:</strong> <code>com.aistudio.diettracker.nvkqwz</code><br>
+      <strong>Developer Contact:</strong> <a href="mailto:whitekev2@gmail.com">whitekev2@gmail.com</a></p>
+
+      <h2>1. Introduction</h2>
+      <p>Welcome to <strong>Diet Tracker</strong> ("we", "our", or "the App"). We are committed to safeguarding your privacy and ensuring your dietary and personal health data remains strictly secure, confidential, and under your control.</p>
+
+      <h2>2. Core Privacy Principle: Local-First & Hardware Encrypted</h2>
+      <p>Diet Tracker operates on an <strong>on-device privacy model</strong>:</p>
+      <ul>
+        <li><strong>Local Storage:</strong> Your meal logs, nutrition facts, custom notes, and body weight logs are stored locally on your device in a secure SQLite database.</li>
+        <li><strong>Hardware-Backed AES-256-GCM Encryption:</strong> Sensitive personal notes and journal details are encrypted using the Android KeyStore and hardware-level AES-256-GCM cryptography.</li>
+        <li><strong>No Mandatory Accounts:</strong> You do not need to register an external account or share personal contact lists to use the core features of the App.</li>
+        <li><strong>Zero Data Monetization:</strong> We do not sell, rent, broker, or trade your personal records, dietary information, or photos with advertisers or third-party data brokers.</li>
+      </ul>
+
+      <h2>3. Information Collected and Processed</h2>
+      <h3>A. Information You Provide</h3>
+      <ul>
+        <li><strong>Dietary Records:</strong> Food names, meal types (Breakfast, Lunch, Dinner, Snack), calories, macronutrients (Protein, Carbs, Fat in grams), and personal notes.</li>
+        <li><strong>Body Weight and Target Goals:</strong> Target calories, target macronutrients, target weight, historical weight records, and measurement units (pounds / kilograms).</li>
+        <li><strong>Preferences:</strong> UI theme settings (System, Calming Light, Forest Dark).</li>
+      </ul>
+
+      <h3>B. Device Permissions</h3>
+      <ul>
+        <li><strong>Camera (<code>android.permission.CAMERA</code>):</strong> Optional runtime permission used exclusively when you photograph food in the Macro Scanner. Photos are used for real-time nutritional recognition and are not used for facial recognition or identity tracking.</li>
+        <li><strong>Internet (<code>android.permission.INTERNET</code>):</strong> Used exclusively to retrieve accurate nutritional facts and search grounding via Google Gemini AI when scanning meals or searching the web database.</li>
+      </ul>
+
+      <h2>4. Third-Party Services & AI Processing</h2>
+      <p>To provide accurate nutrition scanning and search capabilities, the App connects with:</p>
+      <ul>
+        <li><strong>Google Gemini AI & Google Search Grounding:</strong> When analyzing photos or performing search queries, food visual data or search terms are securely transmitted via HTTPS to Google Gemini services to obtain authoritative nutritional information. For more information, please review the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</li>
+      </ul>
+      <p>The App contains <strong>no third-party advertising networks</strong> or invasive cross-app tracking SDKs.</p>
+
+      <h2>5. User-Initiated Sharing</h2>
+      <p>When you use the <strong>"Share Achievements with Friends"</strong> feature, the App generates a plain-text milestone message (such as calorie goal achievements) and opens the standard Android system share sheet. Data is only sent to the recipient or app that you explicitly select.</p>
+
+      <h2>6. Data Modification, Retention & Deletion</h2>
+      <ul>
+        <li><strong>Editing:</strong> You can edit any logged meal (name, calories, protein, carbs, fat) at any time directly on the Log screen.</li>
+        <li><strong>Deletion:</strong> You can delete any meal or weight entry instantly from within the App.</li>
+        <li><strong>Complete Removal:</strong> Because all records reside on your local device, uninstalling the App or clearing app data in Android device settings permanently erases all databases and encryption keys.</li>
+      </ul>
+
+      <h2>7. Children's Privacy</h2>
+      <p>Diet Tracker is not intended for and does not knowingly collect personal information from children under the age of 13. If you believe such data has been provided, please contact us immediately.</p>
+
+      <h2>8. Contact Us</h2>
+      <p>If you have any questions or feedback regarding this Privacy Policy, please reach out to us at:</p>
+      <p><strong>Email:</strong> <a href="mailto:whitekev2@gmail.com">whitekev2@gmail.com</a><br>
+      <strong>Application:</strong> Diet Tracker (<code>com.aistudio.diettracker.nvkqwz</code>)</p>
+    </div>
+
+    <div class="footer">
+      &copy; 2026 Diet Tracker. All rights reserved.
+    </div>
+  </div>
+
+</body>
+</html>

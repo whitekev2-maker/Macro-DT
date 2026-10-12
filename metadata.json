@@ -1,0 +1,6 @@
+{
+  "name": "Diet Tracker",
+  "description": "Smart dietary & macro tracking with camera food recognition, macro target indicators, wearable health sync, trend overlays, and encrypted local privacy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
