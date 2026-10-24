@@ -3,7 +3,7 @@
 **Effective Date:** October 12, 2026  
 **Last Updated:** October 12, 2026  
 **Application ID:** `com.aistudio.diettracker.nvkqwz`  
-**Contact Email:** whitekev2@gmail.com  
+**Contact Email:** macrodiettracker@gmail.com  
 
 ---
 
@@ -73,7 +73,7 @@ The App does **not** integrate third-party advertising SDKs, tracking pixels, or
 
 ## 7. Children's Privacy
 
-Diet Tracker does not address or knowingly collect personally identifiable information from children under the age of 13. If you are a parent or guardian and believe your child has provided personal information, please contact us at whitekev2@gmail.com so we can take appropriate measures.
+Diet Tracker does not address or knowingly collect personally identifiable information from children under the age of 13. If you are a parent or guardian and believe your child has provided personal information, please contact us at macrodiettracker@gmail.com so we can take appropriate measures.
 
 ---
 
@@ -96,5 +96,5 @@ We may update this Privacy Policy periodically to reflect app enhancements or le
 
 If you have questions, comments, or requests regarding this Privacy Policy or your data privacy, please contact:
 
-**Developer Email:** [whitekev2@gmail.com](mailto:whitekev2@gmail.com)  
+**Developer Email:** [macrodiettracker@gmail.com](mailto:macrodiettracker@gmail.com)  
 **Application:** Diet Tracker (`com.aistudio.diettracker.nvkqwz`)  

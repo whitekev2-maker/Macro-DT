@@ -799,7 +799,7 @@ fun PrivacyPolicyDialog(
                     color = MaterialTheme.colorScheme.onSurface
                 )
                 Text(
-                    text = "For inquiries regarding this privacy policy, contact whitekev2@gmail.com.",
+                    text = "For inquiries regarding this privacy policy, contact macrodiettracker@gmail.com.",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
